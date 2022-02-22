@@ -1,16 +1,23 @@
-# mri_app
+# TumorClassifierApp
 
-A new Flutter project.
+## About
+This is a Brain Tumor Classifier App Built as a Part of Deep Learning course from college
 
-## Getting Started
+## Requirements
++ Flutter setup
++ tflite
++ Android Simulator
 
-This project is a starting point for a Flutter application.
+## How to Set up ? 
+ + download/clone this repo
+ + change directory to TumorClassifierApp
+ + Now run command `flutter run `
 
-A few resources to get you started if this is your first Flutter project:
+ ## How to Use ? 
+ input to the app can be given in 2 ways 
+ + via file system
+ + capture a photo
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ pass the image to classifier by pressing the respective button 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ the app responds by displaying the class of image i.e. benign as ' **No** ' or malignant ' **Yes** '
